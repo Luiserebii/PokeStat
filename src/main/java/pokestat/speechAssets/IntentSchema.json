@@ -8,6 +8,12 @@
           "type": "LIST_OF_POKEMON_NAMES"
         }
       ]
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
     }
   ]
 }
