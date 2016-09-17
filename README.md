@@ -17,6 +17,7 @@ To end PokeStat, just use any of Alexa's default closing or end phrases. Alterna
 * "Thank you, PokeStat."
 * "That's enough, PokeStat.:
 which will also trigger its end.
+<br>
 
 
 ## File Structure
@@ -25,18 +26,22 @@ The file structure is primarily based on the ASK example folder and Maven build 
 
 <b>src/main/java/pokestat: </b> Holds the source files for the project.
 * <b>speechAssets: Contains the IntentSchema, utterances file, and slot type information.</b>
+
 <br><b>target: </b> Contains the exports of the Maven build, including .jars
 <br><b>pom.xml </b> Simply the Maven pom.xml, build information
 
 ## Building: 
 Navigate to the main directory, /pokestat, and run:
-<br>$ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
+```bash
+$ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
+```
+<br>
 <br>
 
 ## Future Implementation
 * Adding ability to prompt PokeStat for specific stats (e.g. "What is Vaporeon's base HP stat?")
 * Pokemon stat analysis function, giving the user a specific Pokemon's stronger stats, its weaker ones, and giving a short analysis on what the user should do if facing the Pokemon.
-
+<br>
 
 -----------------------------------------------------------------------------------------
 
