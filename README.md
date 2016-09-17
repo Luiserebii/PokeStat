@@ -49,10 +49,12 @@ $ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
 
 ### A. Pokeapi - Great RESTful Pokemon API, utilized when constructed the database file this application uses: http://pokeapi.co/
 
-### B. 
+### B. Creating a .jar Deployment Package Using Maven - Just as the title says, may help give better idea of file structure: https://docs.aws.amazon.com/lambda/latest/dg/java-create-jar-pkg-maven-no-ide.html
 
-### C. 
+### C. Echosim.io - Useful Alexa testing tool: https://echosim.io/
 
-### D.
+## Credits
+
+### Website: http://sunquyman.xyz/pokestat/
 
 
