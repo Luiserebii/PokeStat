@@ -2,7 +2,7 @@
 PokeStat is an app designed for any product supporting Amazon Alexa, which can provide any Pokemon's base stats on demand, including alternate forms, Mega Evolutions, and Primal Reversions! Simply call the app through a phrase like, "Alexa, open PokeStat" and quickly gain access to valuable stat information. It was written using the Amazon Alexa Skills Kit (ASK) and Java for the lambda function, to be run on AWS Lambda.
 
 <br>
-![alt tag](http://sunquyman.xyz/pokestat/img/PokeStatLogo_512x512.png)
+<div style="text-align:center"><img src="http://sunquyman.xyz/pokestat/img/PokeStatLogo_108x108.png"/></div>
 <br>
 <br>
 ## Functionality
@@ -25,12 +25,12 @@ The file structure is primarily based on the ASK example folder and Maven build 
 
 <b>src/main/java/pokestat: </b> Holds the source files for the project.
 * <b>speechAssets: Contains the IntentSchema, utterances file, and slot type information.</b>
-<b>target: </b> Contains the exports of the Maven build, including .jars
-<b>pom.xml </b> Simply the Maven pom.xml, build information
+<br><b>target: </b> Contains the exports of the Maven build, including .jars
+<br><b>pom.xml </b> Simply the Maven pom.xml, build information
 
 ## Building: 
 Navigate to the main directory, /pokestat, and run:
-$ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
+<br>$ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
 <br>
 
 ## Future Implementation
