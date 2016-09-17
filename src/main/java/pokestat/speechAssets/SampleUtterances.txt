@@ -1,0 +1,6 @@
+BaseStatIntent  what is {PokemonName}'s base stats
+BaseStatIntent  what are {PokemonName}'s base stats
+BaseStatIntent  what is {PokemonName} base stats
+BaseStatIntent  what are {PokemonName} base stats
+BaseStatIntent  what are the base stats of {PokemonName}
+BaseStatIntent  what base stats does {PokemonName} have

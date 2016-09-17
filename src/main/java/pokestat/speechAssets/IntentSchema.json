@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "BaseStatIntent",
+      "slots": [
+        {
+          "name": "PokemonName",
+          "type": "LIST_OF_POKEMON_NAMES"
+        }
+      ]
+    }
+  ]
+}
