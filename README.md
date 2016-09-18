@@ -15,7 +15,7 @@ PokeStat accepts phrases such as:
 To end PokeStat, just use any of Alexa's default closing or end phrases. Alternatively, PokeStat has the in-built phrases:
 * "Thank you."
 * "Thank you, PokeStat."
-* "That's enough, PokeStat.:
+* "That's enough, PokeStat."
 which will also trigger its end.
 <br>
 
@@ -24,14 +24,14 @@ which will also trigger its end.
 
 The file structure is primarily based on the ASK example folder and Maven build structure.
 
-<b>src/main/java/pokestat: </b> Holds the source files for the project.
-* <b>speechAssets: </b> Contains the IntentSchema, utterances file, and slot type information.
+* <b>src/main/java/pokestat: </b> Holds the source files for the project.
+--* <b>speechAssets: </b> Contains the IntentSchema, utterances file, and slot type information.
 
-<br><b>target: </b> Contains the exports of the Maven build, including .jars<br>
-<br><b>pom.xml </b> Simply the Maven pom.xml, build information
+* <br><b>target: </b> Contains the exports of the Maven build, including .jars<br>
+* <br><b>pom.xml: </b> Simply the Maven pom.xml, build information
 <br>
 
-## Building: 
+## Building 
 Navigate to the main directory, /pokestat, and run:
 ```bash
 $ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
