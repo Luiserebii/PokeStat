@@ -25,10 +25,10 @@ which will also trigger its end.
 The file structure is primarily based on the ASK example folder and Maven build structure.
 
 * <b>src/main/java/pokestat: </b> Holds the source files for the project.
---* <b>speechAssets: </b> Contains the IntentSchema, utterances file, and slot type information.
+⋅⋅* <b>speechAssets: </b> Contains the IntentSchema, utterances file, and slot type information.
 
-* <br><b>target: </b> Contains the exports of the Maven build, including .jars<br>
-* <br><b>pom.xml: </b> Simply the Maven pom.xml, build information
+* <b>target: </b> Contains the exports of the Maven build, including .jars<br>
+* <b>pom.xml: </b> Simply the Maven pom.xml, build information
 <br>
 
 ## Building 
