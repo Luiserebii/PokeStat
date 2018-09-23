@@ -5,6 +5,7 @@ PokeStat is an app designed for any product supporting Amazon Alexa, which can p
 <div align="center"><img src="http://sunquyman.xyz/pokestat/img/PokeStatLogo_108x108.png"/></div>
 <br>
 <br>
+
 ## Functionality
 
 PokeStat accepts phrases such as:
