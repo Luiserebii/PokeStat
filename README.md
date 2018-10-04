@@ -1,22 +1,22 @@
-# PokeStat
-PokeStat is an app designed for any product supporting Amazon Alexa, which can provide any Pokemon's base stats on demand, including alternate forms, Mega Evolutions, and Primal Reversions! Simply call the app through a phrase like, "Alexa, open PokeStat" and quickly gain access to valuable stat information. PokeStat is written using the Amazon Alexa Skills Kit (ASK) and Java for the AWS Lambda backend.
+# PokéStat
+PokéStat is an app designed for any product supporting Amazon Alexa, which can provide any Pokémon's base stats on demand, including alternate forms, Mega Evolutions, and Primal Reversions! Simply call the app through a phrase like, "Alexa, open PokéStat" and quickly gain access to valuable stat information. PokéStat is written using the Amazon Alexa Skills Kit (ASK) and Java for the AWS Lambda backend.
 
 <br>
-<div align="center"><img src="http://sunquyman.xyz/pokestat/img/PokeStatLogo_108x108.png"/></div>
+<div align="center"><img src="http://serebii.io/pokestat/img/PokeStatLogo_108x108.png"/></div>
 <br>
 <br>
 
 ## Functionality
 
-PokeStat accepts phrases such as:
+PokéStat accepts phrases such as:
 * "What are Mega Mewtwo Y's base stats?"
 * "What are the base stats of Primal Kyogre?"
 * "What base stats does Dragonite have?"
 
-To end PokeStat, just use any of Alexa's default closing or end phrases. Alternatively, PokeStat has the in-built phrases:
+To end PokéStat, just use any of Alexa's default closing or end phrases. Alternatively, PokéStat has the in-built phrases:
 * "Thank you."
-* "Thank you, PokeStat."
-* "That's enough, PokeStat."
+* "Thank you, PokéStat."
+* "That's enough, PokéStat."
 which will also trigger its end.
 <br>
 
@@ -40,15 +40,15 @@ $ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
 <br>
 
 ## Future Implementation
-* Adding ability to prompt PokeStat for specific stats (e.g. "What is Vaporeon's base HP stat?")
-* Pokemon stat analysis function, giving the user a specific Pokemon's stronger stats, its weaker ones, and giving a short analysis on what the user should do if facing the Pokemon.
+* Adding ability to prompt PokéStat for specific stats (e.g. "What is Vaporeon's base HP stat?")
+* Pokemon stat analysis function, giving the user a specific Pokémon's stronger stats, its weaker ones, and giving a short analysis on what the user should do if facing the Pokemon.
 <br>
 
 -----------------------------------------------------------------------------------------
 
 ## Appendix
 
-### A. Pokeapi - Great RESTful Pokemon API, utilized when constructed the database file this application uses: http://pokeapi.co/
+### A. Pokéapi - Great RESTful Pokémon API, utilized when constructed the database file this application uses: http://pokeapi.co/
 
 ### B. Creating a .jar Deployment Package Using Maven - Just as the title says, may help give better idea of file structure: https://docs.aws.amazon.com/lambda/latest/dg/java-create-jar-pkg-maven-no-ide.html
 
@@ -56,6 +56,6 @@ $ mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
 
 ## Credits
 
-### Website: http://sunquyman.xyz/pokestat/
+### Website: http://serebii.io/pokestat/
 
 
