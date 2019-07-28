@@ -1,4 +1,7 @@
 # PokéStat
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Luiserebii/PokeStat.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Luiserebii/PokeStat/context:java)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Luiserebii/PokeStat.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Luiserebii/PokeStat/alerts/)
+
 PokéStat is an app designed for any product supporting Amazon Alexa, which can provide any Pokémon's base stats on demand, including alternate forms, Mega Evolutions, and Primal Reversions! Simply call the app through a phrase like, "Alexa, open PokéStat" and quickly gain access to valuable stat information. PokéStat is written using the Amazon Alexa Skills Kit (ASK) and Java for the AWS Lambda backend.
 
 <br>
